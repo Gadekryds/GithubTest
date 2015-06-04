@@ -24,5 +24,11 @@ namespace GithubTest
         {
             InitializeComponent();
         }
+
+        private void button_Test_Click(object sender, RoutedEventArgs e)
+        {
+            string test = "TEST TEST TEST TEST";
+            MessageBox.Show(test);
+        }
     }
 }

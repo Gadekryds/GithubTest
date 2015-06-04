@@ -28,7 +28,7 @@ namespace GithubTest
         private void button_Test_Click(object sender, RoutedEventArgs e)
         {
             string test = "TEST TEST TEST TEST";
-            MessageBox.Show(test);
+            Label_test.Content = test;
         }
     }
 }

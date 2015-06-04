@@ -3,7 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button Name="button_Test" Content="Test Button" HorizontalAlignment="Left" Margin="206,122,0,0" VerticalAlignment="Top" Width="75" Click="button_Test_Click"/>
+        <Button Name="button_Test" Content="Test Button" HorizontalAlignment="Left" Margin="169,169,0,0" VerticalAlignment="Top" Width="75" Click="button_Test_Click"/>
+        <Label Name="Label_test" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="184,127,0,0"/>
 
     </Grid>
 </Window>
